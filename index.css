@@ -1,0 +1,226 @@
+header {
+    height: 20em;
+    background-color: black;
+}
+
+#wam {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    z-index: 3;
+    border-radius: 100%;
+    width: 300px;
+
+}
+
+#robi {
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 40%;
+    top: 2%;
+    font-size: 7em;
+    font-family: 'Rubik Pixels', cursive;
+    letter-spacing: 6vw;
+    border-bottom: 2px solid white;
+    z-index: 3;
+
+}
+
+#trait {
+    height: 80px;
+    width: 85%;
+    position: relative;
+    top: 70%;
+    left: 17%;
+    border-bottom: 1px solid white;
+
+    z-index: 0;
+    background: #333333;
+}
+
+#reflet {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rubik Iso', cursive;
+    color: #FFFFFF;
+    letter-spacing: 2vw;
+
+    text-shadow: #FFF 10px 0px 35px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #f8ff2d 0px 0px 20px, #f1ff2d 0px 0px 30px, #f60000 0px 0px 40px, #ec0303 0px 0px 50px;
+    top: 30%;
+    left: 60%;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        margin-top: 10%;
+        
+    }
+
+    header {
+        height: 8em;
+
+    }
+
+    #wam {
+        width: 100px;
+    }
+
+    #robi {
+        font-size: 3em;
+        top: 1%;
+      
+    }
+
+    #trait {
+        height: 18%;
+    
+    }
+
+    #reflet {
+        font-size: 1em;
+        top: 13%;
+    }
+}
+
+/*-- presentation --*/
+
+#presentation {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2em;
+
+    font-family: 'Foldit', cursive;
+}
+
+
+
+
+
+#gauche {
+    background-color: rgb(1, 0, 0);
+   
+}
+
+#menus {
+    position: fixed;
+}
+
+
+.lien {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgba(24, 101, 140, 0.765);
+    text-shadow: 2px 2px 2px rgb(207, 105, 16);
+    letter-spacing: 1px;
+
+}
+
+#aide {
+
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    background-color: rgba(19, 93, 98, 0.32);
+    border: 15px solid rgba(4, 57, 84, 0.818);
+
+    padding: 2%;
+}
+#cagnotte script{
+height: 5%;
+    margin-top: 2%;
+    
+}
+#enjoy {
+    width: 350px;
+    transform: rotate(-20deg);
+    margin-left: 20%;
+    margin-top: -12%;
+    position: absolute;
+    border-bottom-right-radius: 50%;
+}
+
+#paix {
+    width: 450px;
+    transform: rotate(10deg);
+    margin-left: 35%;
+    margin-top: -12%;
+    position: absolute;
+
+}
+
+#contact {
+   
+    border: 1px solid black;
+
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.455);
+    margin: 15px;
+}
+#demande{
+     font-family: 'Rubik Iso', cursive;
+    font-size: 2em;
+}
+#contact:hover {
+    background-color: #31564784;
+}
+
+#contact a {
+    color: rgba(207, 105, 16);
+
+}
+
+#contact a:hover {
+    color: aquamarine;
+
+}
+
+iframe {
+    width: 100%;
+    ;
+}
+
+@media screen and (max-width: 700px) {
+    #menus{
+        top: 30%;
+    }
+    #aide {
+        height: 22%;
+
+    }
+#cadre{
+    display: flex;
+    flex-direction: column;
+}
+    .lien {
+       display: none;
+    }
+
+    .btn {
+        margin-left: -35%;
+    }
+    .btn a{
+        letter-spacing: -2px;
+    }
+#enjoy{
+    width: 150px;
+    margin-left: 40%;
+}
+    #paix {
+        width: 150px;
+    }
+    #contact{
+        font-size: 1em;
+    }
+}
+
+#mention {
+    float: right;
+    margin-right: 5%;
+}
