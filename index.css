@@ -108,18 +108,20 @@ header {
 
 #menus {
     position: fixed;
+    
 }
 
 
 .lien {
-    text-decoration: none;
+  
     font-size: 1.2rem;
-    color: rgba(24, 101, 140, 0.765);
-    text-shadow: 2px 2px 2px rgb(207, 105, 16);
+    color: rgba(153, 104, 4, 0.765);
     letter-spacing: 1px;
-
+ 
 }
-
+.btn   a{
+ text-decoration: none !important;
+}
 #aide {
 
 
@@ -131,11 +133,7 @@ header {
 
     padding: 2%;
 }
-#cagnotte script{
-height: 5%;
-    margin-top: 2%;
-    
-}
+
 #enjoy {
     width: 350px;
     transform: rotate(-20deg);
@@ -146,11 +144,14 @@ height: 5%;
 }
 
 #paix {
-    width: 450px;
+    position: relative;
+    width: 250px;
+    height: 300px;
     transform: rotate(10deg);
     margin-left: 35%;
     margin-top: -12%;
     position: absolute;
+
 
 }
 
