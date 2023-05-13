@@ -164,7 +164,7 @@ header {
     background-color: rgba(128, 128, 128, 0.455);
     margin: 15px;
 }
-#demande{
+.demande{
      font-family: 'Rubik Iso', cursive;
     font-size: 2em;
 }
@@ -186,13 +186,17 @@ iframe {
     width: 100%;
     ;
 }
+#robi2{
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
 
 @media screen and (max-width: 700px) {
     #menus{
         top: 30%;
     }
     #aide {
-        height: 22%;
+        height: 35%;
 
     }
 #cadre{
