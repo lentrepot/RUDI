@@ -93,9 +93,9 @@ header {
     margin: auto;
     margin-top: 2%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
 
-    font-family: 'Foldit', cursive;
+    font-family: 'Righteous', cursive;
 }
 
 
@@ -126,9 +126,9 @@ header {
 #aide {
 
 
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
-
+letter-spacing: 1px;
     background-color: rgba(19, 93, 98, 0.32);
     border: 15px solid rgba(4, 57, 84, 0.818);
 
@@ -155,7 +155,7 @@ header {
 
   width: 40%;
 }
-#contact {
+#contact_robi {
    
     border: 1px solid black;
 
@@ -170,12 +170,12 @@ header {
 }
 
 
-#contact a {
+#contact_robi a {
     color: rgba(207, 105, 16);
 
 }
 
-#contact a:hover {
+#contact_robi a:hover {
     color: aquamarine;
 
 }
@@ -195,12 +195,16 @@ iframe {
     text-decoration:underline;
 }
 .font{
- 
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+}
+#bandcamp{
+    margin-left: 5%;
+
 }
 #photographe{  
     margin-top: -25%;
-    margin-bottom: -7%;
+    margin-bottom: -17%;
     margin-right: -40%;
 }
 @media screen and (max-width: 700px) {
@@ -230,7 +234,7 @@ iframe {
     margin-left: 40%;
 }
    
-    #contact{
+    #contact_robi{
         font-size: 1em;
     }
  
