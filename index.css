@@ -84,6 +84,7 @@ header {
         font-size: 1em;
         top: 13%;
     }
+
 }
 
 /*-- presentation --*/
@@ -206,18 +207,23 @@ iframe {
     margin-top: -25%;
     margin-bottom: -17%;
     margin-right: -40%;
+
 }
 @media screen and (max-width: 700px) {
     #menus{
         top: 30%;
     }
     #aide {
-        height: 30%;
+        height: 25%;
+        font-size: 1em;
 
     }
 #cadre{
     display: flex;
     flex-direction: column;
+}
+.presentation{
+    font-size: 1.3em;
 }
     .lien {
        display: none;
