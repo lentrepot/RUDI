@@ -76,6 +76,7 @@ header {
 
     #trait {
         height: 18%;
+        width: 80%;
     
     }
 
@@ -134,7 +135,7 @@ header {
     padding: 2%;
 }
 
-#enjoy {
+.enjoy {
     width: 350px;
     transform: rotate(-20deg);
     margin-left: 20%;
@@ -143,19 +144,17 @@ header {
     border-bottom-right-radius: 50%;
 }
 
-#paix {
-    position: relative;
-    width: 250px;
-    height: 300px;
+.paix {
+   
     transform: rotate(10deg);
-    margin-left: 40%;
-    margin-top: -12%;
-    position: absolute;
-    opacity: 60%;
-
-
+    margin-left: 30%;
+    width: 30%;
 }
 
+#photographe{
+
+  width: 40%;
+}
 #contact {
    
     border: 1px solid black;
@@ -169,9 +168,7 @@ header {
      font-family: 'Rubik Iso', cursive;
     font-size: 2em;
 }
-#contact:hover {
-    background-color: #31564784;
-}
+
 
 #contact a {
     color: rgba(207, 105, 16);
@@ -201,15 +198,17 @@ iframe {
  
     font-family: 'Source Code Pro', monospace;
 }
-strong{
-    font-weight: 880;
+#photographe{  
+    margin-top: -25%;
+    margin-bottom: -7%;
+    margin-right: -40%;
 }
 @media screen and (max-width: 700px) {
     #menus{
         top: 30%;
     }
     #aide {
-        height: 25%;
+        height: 30%;
 
     }
 #cadre{
@@ -226,16 +225,15 @@ strong{
     .btn a{
         letter-spacing: -2px;
     }
-#enjoy{
+.enjoy{
     width: 150px;
     margin-left: 40%;
 }
-    #paix {
-        width: 150px;
-    }
+   
     #contact{
         font-size: 1em;
     }
+ 
 }
 
 #mention {
