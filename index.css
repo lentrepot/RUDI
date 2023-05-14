@@ -87,7 +87,7 @@ header {
 
 /*-- presentation --*/
 
-#presentation {
+.presentation {
     width: 90%;
     margin: auto;
     margin-top: 2%;
@@ -148,9 +148,10 @@ header {
     width: 250px;
     height: 300px;
     transform: rotate(10deg);
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: -12%;
     position: absolute;
+    opacity: 60%;
 
 
 }
@@ -188,16 +189,27 @@ iframe {
 }
 #robi2{
     font-size: 0.7em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(4, 57, 84, 0.818);
     margin-bottom: 2%;
-}
 
+    text-shadow: #FFF 10px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 5px, #f8ff2d 0px 0px 5px;
+}
+.concu{
+    text-decoration:underline;
+}
+.font{
+ 
+    font-family: 'Source Code Pro', monospace;
+}
+strong{
+    font-weight: 880;
+}
 @media screen and (max-width: 700px) {
     #menus{
         top: 30%;
     }
     #aide {
-        height: 35%;
+        height: 25%;
 
     }
 #cadre{
