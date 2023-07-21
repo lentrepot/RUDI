@@ -117,7 +117,7 @@ header {
 .lien {
   
     font-size: 1.2rem;
-    color: rgba(153, 104, 4, 0.765);
+    color: rgba(255, 170, 0, 0.798);
     letter-spacing: 1px;
  
 }
@@ -130,7 +130,7 @@ header {
     font-size: 1.5em;
     font-weight: bold;
 letter-spacing: 1px;
-    background-color: rgba(19, 93, 98, 0.32);
+    background-color: #135d6255;
     border: 15px solid rgba(4, 57, 84, 0.818);
 
     padding: 2%;
@@ -168,11 +168,12 @@ letter-spacing: 1px;
 .demande{
      font-family: 'Rubik Iso', cursive;
     font-size: 2em;
+   color: rgba(19, 93, 98, 0.93);
 }
 
 
 #contact_robi a {
-    color: rgba(207, 105, 16);
+    color: rgb(250, 118, 3);
 
 }
 
@@ -204,9 +205,11 @@ iframe {
 
 }
 #photographe{  
+    width: 30%;
     margin-top: -25%;
-    margin-bottom: -17%;
-    margin-right: -40%;
+    margin-bottom: -10%;
+    margin-left: -60%;
+opacity: 80%;
 
 }
 @media screen and (max-width: 700px) {
@@ -249,4 +252,8 @@ iframe {
 #mention {
     float: right;
     margin-right: 5%;
+}
+
+.scrolled{
+    background-color: rgba(19, 93, 98, 0.333);
 }
