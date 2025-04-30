@@ -66,12 +66,14 @@ header {
 
     #wam {
         width: 100px;
+        top: 0.8em;
+        left: 1.5em;
     }
 
     #talos {
         font-size: 3em;
         top: 1%;
-      
+        left: 30%;
     }
 
     #trait {
