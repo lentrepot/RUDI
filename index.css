@@ -5,11 +5,11 @@ header {
 
 #wam {
     position: absolute;
-    top: 1.5em;
+    top: 1.6em;
     left: 1em;
     z-index: 3;
     border-radius: 20%;
-    height: 260px;
+    height: 255px;
     width: 255px;
     box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0black inset; 
 }
