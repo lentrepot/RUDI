@@ -9,7 +9,7 @@ header {
     left: 2em;
     z-index: 3;
     border-radius: 100%;
-    width: 300px;
+    width: 200px;
 
 }
 
@@ -17,9 +17,9 @@ header {
     position: absolute;
     color: white;
     text-align: center;
-    left: 40%;
+    left: 35%;
     top: 2%;
-    font-size: 7em;
+    font-size: 5em;
     font-family: 'Rubik Pixels', cursive;
     letter-spacing: 6vw;
     border-bottom: 2px solid white;
@@ -27,17 +27,7 @@ header {
 
 }
 
-#trait {
-    height: 80px;
-    width: 85%;
-    position: relative;
-    top: 70%;
-    left: 17%;
-    border-bottom: 1px solid white;
 
-    z-index: 0;
-    background: #333333;
-}
 
 #reflet {
     position: absolute;
@@ -52,7 +42,12 @@ header {
     top: 30%;
     left: 60%;
 }
-
+#note{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 15%;
+}
 @media screen and (max-width: 700px) {
     body {
         margin-top: 10%;
@@ -63,7 +58,10 @@ header {
         height: 8em;
 
     }
-
+#note{
+    width: 250px;
+    margin-left: 2%;
+}
     #wam {
         width: 100px;
     }
@@ -73,7 +71,9 @@ header {
         top: 1%;
       
     }
-
+#talos {
+    font-size: 1.5em;
+}
     #trait {
         height: 18%;
         width: 80%;
@@ -110,7 +110,7 @@ header {
 
 #menus {
     position: fixed;
-    
+    top: 40%;
 }
 
 
@@ -131,9 +131,8 @@ header {
     font-weight: bold;
 letter-spacing: 1px;
     background-color: #135d6255;
-    border: 15px solid rgba(4, 57, 84, 0.818);
+    border: 5px solid rgba(4, 57, 84, 0.818);
 
-    padding: 2%;
 }
 
 .enjoy {
@@ -187,9 +186,9 @@ iframe {
     ;
 }
 #robi2{
-    font-size: 0.7em;
+    font-size: 0.6em;
     border-bottom: 1px solid rgba(4, 57, 84, 0.818);
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 
     text-shadow: #FFF 10px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 5px, #f8ff2d 0px 0px 5px;
 }
@@ -217,16 +216,19 @@ opacity: 80%;
         top: 30%;
     }
     #aide {
-        height: 25%;
+        height: 18%;
         font-size: 1em;
+        padding: 5px;
 
     }
 #cadre{
     display: flex;
     flex-direction: column;
+
 }
+
 .presentation{
-    font-size: 1.3em;
+    font-size: 1em;
 }
     .lien {
        display: none;
